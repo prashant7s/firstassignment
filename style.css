@@ -1,0 +1,89 @@
+*{
+    background-color: #5956E9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+height: 15vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.navbar-content{
+  width: 80vw; 
+  height: 10vh; 
+
+}
+
+.email_phone_logo{
+     background-color: aliceblue;
+     height: 4vh;
+     display: flex;
+     color: white;
+}
+
+.email_phone{
+    display: flex;
+    width: 70%;
+}
+
+#phone{
+    margin-left: 5vw;
+}
+
+.logo{
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+#facebook,#twitter,#instagram{
+    margin-right: 2vw;
+}
+
+.navbar-elements{
+    display: flex;
+    color: black; 
+    background-color: white;
+    font-size: 20px;
+    align-items: center;
+    height: 6vh;
+    border-radius: 5px;
+}
+
+ul{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: white;
+}
+
+a{
+    background-color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #5956E9;
+}
+
+button{
+    height: 4vh;
+    border-radius: 5px;
+    background-color: #5956E9;
+    color: white;
+    width: 7vw;
+}
+
+
