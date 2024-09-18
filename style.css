@@ -1,5 +1,5 @@
 *{
-    background-color: #5956E9;
+    background-image: url('/Icons/fill/Background\ Image.png');
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,7 +19,6 @@ align-items: center;
 }
 
 .email_phone_logo{
-     background-color: aliceblue;
      height: 4vh;
      display: flex;
      color: white;
@@ -48,6 +47,7 @@ align-items: center;
     display: flex;
     color: black; 
     background-color: white;
+    background-image: none;
     font-size: 20px;
     align-items: center;
     height: 6vh;
@@ -58,6 +58,7 @@ align-items: center;
 ul{
     display: flex;
     background-color: white;
+    background-image: none;
     align-items: center;
     justify-content: space-around;
     width: 100%;
@@ -68,10 +69,12 @@ li{
     margin-left: 1vw;
     margin-right: 1vw;
     background-color: white;
+    background-image: none;
 }
 
 a{
     background-color: white;
+    background-image: none;
 }
 
 a:hover{
@@ -90,6 +93,7 @@ button{
 
 img{
     background-color: aliceblue;
+    background-image: none;
 }
 
 
