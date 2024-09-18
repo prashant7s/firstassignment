@@ -52,6 +52,7 @@ align-items: center;
     align-items: center;
     height: 6vh;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 ul{
@@ -79,11 +80,16 @@ a:hover{
 }
 
 button{
-    height: 4vh;
+    height: 5vh;
     border-radius: 5px;
     background-color: #5956E9;
     color: white;
     width: 7vw;
+    font-size: 15px;
+}
+
+img{
+    background-color: aliceblue;
 }
 
 
